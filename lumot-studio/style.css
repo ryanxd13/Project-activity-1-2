@@ -1,0 +1,16 @@
+/* Maliit lang na custom CSS. Halos lahat ay Bootstrap classes na. */
+
+/* Smooth scroll kapag pinindot ang menu link */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Para hindi matakpan ng fixed navbar ang title ng section */
+section {
+  scroll-margin-top: 60px;
+}
+
+/* Para hindi matakpan ng navbar ang Home section sa taas */
+#home {
+  padding-top: 70px;
+}
